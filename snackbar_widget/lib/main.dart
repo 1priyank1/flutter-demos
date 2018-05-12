@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: new MyHomePage(title: 'RaisedButton Widget'),
+      home: new MyHomePage(title: 'SnackBar Widget'),
     );
   }
 }
@@ -39,16 +39,20 @@ class _MyHomePageState extends State<MyHomePage> {
         builder: (BuildContext context) {
           return new Center(
             child: new RaisedButton(
-              child: new Text("Raised Button"),
+              child: new Text("Show SnackBar"),
               color: Colors.blue,
               textColor: Colors.white,
               onPressed: () {
                 Scaffold.of(context).showSnackBar(
-                  new SnackBar(content: new Text("Test snackbar"),
+                  new SnackBar(content: new Text("This is a SnackBar."),
                   duration: new Duration(seconds: 5),
-                  action: new SnackBarAction(
-                    label: "OK",
-                  ))
+                    action: new SnackBarAction(
+                      label: "OK",
+                      onPressed: () {
+
+                      },
+                    )
+                   )
                 );
               },
             )
