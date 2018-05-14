@@ -48,7 +48,8 @@ class _MyHomePageState extends State<MyHomePage> {
               child: new Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
-                   new RaisedButton(
+                  // Alett Dialog
+                  new RaisedButton(
                     child: new Text("Alert Dialog"),
                     color: Colors.blue,
                     textColor: Colors.white,
@@ -56,15 +57,15 @@ class _MyHomePageState extends State<MyHomePage> {
                       showAlertDialog(context);
                     },
                   ),
-
-                   new RaisedButton(
-                     child: new Text("Simple Dialog"),
-                     color: Colors.blue,
-                     textColor: Colors.white,
-                     onPressed: () {
+                  // Simple Dialog
+                  new RaisedButton(
+                    child: new Text("Simple Dialog"),
+                    color: Colors.blue,
+                    textColor: Colors.white,
+                    onPressed: () {
                        showSelectionDialog(context);
-                     },
-                   ),
+                    },
+                  ),
                 ],
               ),
             );
@@ -123,16 +124,20 @@ class _MyHomePageState extends State<MyHomePage> {
   selectedCountry(Country country) {
     switch (country) {
       case Country.India:
-      // Let's go.
+        print("country: India");
+        // Let's go.
         break;
       case Country.Australia:
-      // Let's go.
+        print("country: Australia");
+        // Let's go.
         break;
       case Country.US:
-      // Let's go.
+        print("country: US");
+        // Let's go.
         break;
       case Country.Caneda:
-      // Let's go.
+        print("country: Caneda");
+        // Let's go.
         break;
     }
   }

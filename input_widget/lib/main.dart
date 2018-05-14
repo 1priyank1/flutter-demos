@@ -56,18 +56,20 @@ class _MyHomePageState extends State<MyHomePage> {
               crossAxisAlignment: CrossAxisAlignment.center,
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: <Widget>[
+                // TextField widget
                 new Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
-                      new Text("TextField : ", style: textStyle),
-                       new Flexible(
-                          child: new TextField(
-                          decoration: const InputDecoration(helperText: "Enter App ID"),
-                          style: Theme.of(context).textTheme.body1,
-                        ),
+                    new Text("TextField : ", style: textStyle),
+                    new Flexible(
+                        child: new TextField(
+                        decoration: const InputDecoration(helperText: "Enter App ID"),
+                        style: Theme.of(context).textTheme.body1,
                       ),
+                    ),
                   ]
                 ),
+                // Checkbox widget
                 new Row(
                   children: <Widget>[
                     new Text("Checkbox : ", style: textStyle),
@@ -81,6 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ,activeColor: Colors.blue,)
                   ],
                 ),
+                // Switch widget
                 new Row(
                   children: <Widget>[
                     new Text("Switch : ", style: textStyle),
@@ -94,6 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ,activeColor: Colors.blue,)
                   ],
                 ),
+                // Radio widget
                 new Row(
                   children: <Widget>[
                     new Text("Radio : One ", style: textStyle) ,
@@ -118,6 +122,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     )
                   ],
                 ),
+                // Slider widget
                 new Row(
                   children: <Widget>[
                     new Text("Slider : 0", style: textStyle),
@@ -136,6 +141,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     new Text("100", style: textStyle),
                   ],
                 ),
+                // DatePicker widget
                 new Row(
                   children: <Widget>[
                     new Text("DatePicker :  ", style: textStyle),
@@ -165,6 +171,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   ],
                 ),
+                // TimePicker widget
                 new Row(
                   children: <Widget>[
                     new Text("TimePicker :  ", style: textStyle),
