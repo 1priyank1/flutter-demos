@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: new MyHomePage(title: 'BottomNavigationBar Widget'),
+      home: new MyHomePage(title: 'Drawer Widget'),
     );
   }
 }
