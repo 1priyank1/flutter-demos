@@ -5,68 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b38ac260-41ef-4fb8-a170-54a01e595516" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/.metadata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/app/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/app/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/app/src/main/java/priyank/patel/listviewwidget/MainActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/app/src/main/res/drawable/launch_background.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/app/src/main/res/values/styles.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/gradle.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/gradlew" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/android/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Flutter/AppFrameworkInfo.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Flutter/Debug.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Flutter/Release.xcconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner.xcodeproj/project.pbxproj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner.xcworkspace/contents.xcworkspacedata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/AppDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/AppDelegate.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Base.lproj/LaunchScreen.storyboard" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Base.lproj/Main.storyboard" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/ios/Runner/main.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/lib/main.dart" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/listview_widget.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/listview_widget_android.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/pubspec.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/pubspec.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../listview_widget/test/widget_test.dart" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.dart_tool/" />
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -238,7 +177,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1526574084714" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1526574260135" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -286,7 +225,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1526574084715" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1526574260135" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
