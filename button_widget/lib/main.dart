@@ -26,6 +26,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _raisedCounter = 0;
   int _flatCounter = 0;
+  int _iconCounter = 1;
 
   @override
   Widget build(BuildContext context) {
@@ -37,6 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: new Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
+            // Raised Button
             new RaisedButton(
               child: new Text("Raised Button"),
               onPressed: () {
@@ -51,6 +53,8 @@ class _MyHomePageState extends State<MyHomePage> {
               'You have pushed the raised button $_raisedCounter times',
               textAlign: TextAlign.justify
             ),
+
+            // Flat Button
             new FlatButton(
               child: new Text("Flat Button"),
               onPressed: () {
@@ -63,6 +67,22 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             new Text(
                 'You have pushed the flat button $_flatCounter times',
+                textAlign: TextAlign.justify
+            ),
+
+            // Icon Button
+            new IconButton(
+              icon: new Icon(Icons.favorite),
+              tooltip: 'Facorite icon',
+              color: Colors.blue,
+              onPressed: () {
+                setState(() {
+                  _iconCounter++;
+                });
+              },
+            ),
+            new Text(
+                'You have pushed the icon button $_iconCounter times',
                 textAlign: TextAlign.justify
             )
           ],
