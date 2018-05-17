@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
             new Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                new Text('Filter Chip : ', style: textStyle),
+                new Text('Choice Chip : ', style: textStyle),
                 new Wrap(
                   children: new List<Widget>.generate(3, (int index) {
                       return new ChoiceChip(
