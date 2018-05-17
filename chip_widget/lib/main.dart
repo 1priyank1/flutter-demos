@@ -34,6 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
     const ActorFilterEntry('Caneda', 'C')
   ];
   List<String> _filters = <String>[];
+  int _value = 1;
 
   @override
   Widget build(BuildContext context) {
@@ -48,6 +49,7 @@ class _MyHomePageState extends State<MyHomePage> {
            crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
+            // Chip widget
             new Chip(
                 label: new Text('Chip'),
                 avatar: new CircleAvatar(
@@ -55,6 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: new Text('C'),
                 ),
             ),
+            // InputChip widget
             new InputChip(
                 label: new Text("Input Chip"),
                 avatar: new CircleAvatar(
@@ -65,6 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   print("I am an Inpit chip.");
                 },
             ),
+            // FilterChip widget
             new Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
@@ -75,12 +79,45 @@ class _MyHomePageState extends State<MyHomePage> {
                 new Text('Selected Coutries: ${_filters.join(', ')}', style: textStyle ),
               ],
             ),
+            // ChoiceChip widget
+            new Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                new Text('Filter Chip : ', style: textStyle),
+                new Wrap(
+                  children: new List<Widget>.generate(3, (int index) {
+                      return new ChoiceChip(
+                          label: new Text("Item $index"),
+                          selected: _value == index,
+                          onSelected: (bool selected) {
+                            setState(() {
+                              _value = selected ? index : null;
+                            });
+                          },
+                      );
+                    }
+                  ).toList()
+                ),
+              ],
+            ),
+            // ActionChip widget
+            new ActionChip(
+              label: new Text("Action Chip"),
+              avatar: new CircleAvatar(
+                backgroundColor: Colors.blue.shade700,
+                child: new Text("AC"),
+              ),
+              onPressed: (){
+                print("I am an Action chip.");
+              },
+            ),
           ],
         ),
       ),
     );
   }
 
+  // Returns list of FilterChip widgets
   Iterable<Widget> get actorWidgets sync* {
     for (ActorFilterEntry actor in _cast) {
       yield new Padding(
