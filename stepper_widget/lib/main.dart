@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: new MyHomePage(title: 'ListView Widget'),
+      home: new MyHomePage(title: 'Stepper Widget'),
     );
   }
 }
@@ -36,12 +36,18 @@ class _MyHomePageState extends State<MyHomePage> {
     new Step(
         title: new Text("Step 2"),
         content: new Text("Content 2"),
-        // You can change the style of the step icon i.e number, editing, etc.
-        state: StepState.editing,
         isActive: true),
     new Step(
         title: new Text("Step 3"),
-        content: new Text("Contetn 3"),
+        content: new Text("Content 3"),
+        isActive: true),
+    new Step(
+         title: new Text("Step 4"),
+         content: new Text("Content 4"),
+         isActive: true),
+    new Step(
+        title: new Text("Step 5"),
+        content: new Text("Content 5"),
         state: StepState.complete,
         isActive: true),
   ];
@@ -49,7 +55,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-    //TextStyle textStyle = Theme.of(context).textTheme.subhead;
 
     return new Scaffold(
       appBar: new AppBar(
@@ -76,12 +81,8 @@ class _MyHomePageState extends State<MyHomePage> {
             if(_currentStep < steps.length - 1) {
               _currentStep = _currentStep + 1;
             }
-            else {
-              _currentStep = 0;
-            }
           });
         },
-
       )
     );
   }
