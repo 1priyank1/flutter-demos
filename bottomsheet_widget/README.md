@@ -1,6 +1,6 @@
-# bottomsheet_widget
+# BottomSheet
 
-BottomSheet widget demo app
+[BottomSheet](https://docs.flutter.io/flutter/material/BottomSheet-class.html) widget demo app
 
 ## Getting Started
 
