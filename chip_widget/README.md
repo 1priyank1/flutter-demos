@@ -1,6 +1,8 @@
-# chip_widget
+# Chip
 
-Chip widget demo app
+[Chip](https://docs.flutter.io/flutter/material/Chip-class.html) widget demo app.
+
+<img src="screenshot/chip_widget.png" height="600em" /> 
 
 ## Getting Started
 
