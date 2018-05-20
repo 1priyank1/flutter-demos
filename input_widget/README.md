@@ -6,5 +6,5 @@ Input and selection widgets demo app for [TextField](https://docs.flutter.io/flu
 
 ## Getting Started
 
-For help getting started with Flutter, view our online
+For help getting started with Flutter, view online
 [documentation](https://flutter.io/).
