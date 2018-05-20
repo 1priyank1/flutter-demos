@@ -1,6 +1,8 @@
-# gridview_widget
+# GridView
 
-GridView widget demo app
+[GridView](https://docs.flutter.io/flutter/widgets/GridView-class.html) widget demo app
+
+<img src="screenshot/gridview_widget.png" height="600em" /> 
 
 ## Getting Started
 
