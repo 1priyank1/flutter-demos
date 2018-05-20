@@ -1,4 +1,4 @@
-# card_widget
+# Card
 
 [Card](https://docs.flutter.io/flutter/material/Card-class.html) widget demo app
 
