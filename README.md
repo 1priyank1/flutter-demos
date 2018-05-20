@@ -1,8 +1,8 @@
 # flutter-demos
-Simple demo apps using flutter
+Simple demo apps to demonstrate how to implement common mobile design patterns with Flutter. 
 
 
-## Demo apps
+## Widgets
 1. [AppBar](/appbar_widget)
 2. [BottomNavigationBar](/bottom_navigation_bar)
 3. [BottomSheet](/bottomsheet_widget)
