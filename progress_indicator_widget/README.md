@@ -1,4 +1,4 @@
-# Progress indicator
+# Progress Indicator
 
 Progress indicator widget demo for [CircularProgressIndicator](https://docs.flutter.io/flutter/material/CircularProgressIndicator-class.html)
 
