@@ -4,5 +4,5 @@
 
 ## Getting Started
 
-For help getting started with Flutter, view our online
+For help getting started with Flutter, view online
 [documentation](https://flutter.io/).
