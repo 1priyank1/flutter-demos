@@ -1,8 +1,8 @@
-# appbar_widget
+# AppBar
 
-AppBar widget demo app
+[AppBar](https://docs.flutter.io/flutter/material/AppBar-class.html) widget demo app
 
 ## Getting Started
 
-For help getting started with Flutter, view our online
+For help getting started with Flutter, view online
 [documentation](https://flutter.io/).
