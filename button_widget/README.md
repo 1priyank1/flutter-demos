@@ -1,4 +1,4 @@
-# button_widget
+# Button
 
 Button widget demo app
 
