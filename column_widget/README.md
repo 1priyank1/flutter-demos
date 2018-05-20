@@ -1,6 +1,6 @@
-# column_widget
+# Column
 
-Column widget demo app
+[Column](https://docs.flutter.io/flutter/widgets/Column-class.html) widget demo app
 
 ## Getting Started
 
