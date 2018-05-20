@@ -1,4 +1,4 @@
-# bottom_navigation_bar
+# BottomNavigationBar
 
 [BottomNavigationBar](https://docs.flutter.io/flutter/material/BottomNavigationBar-class.html) widget demo app.
 
