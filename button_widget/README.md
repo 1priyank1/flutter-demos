@@ -5,5 +5,5 @@ Button widget demo app for [RaisedButton](https://docs.flutter.io/flutter/materi
 
 ## Getting Started
 
-For help getting started with Flutter, view our online
+For help getting started with Flutter, view online
 [documentation](https://flutter.io/).
