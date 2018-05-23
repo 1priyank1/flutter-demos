@@ -26,7 +26,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _raisedCounter = 0;
   int _flatCounter = 0;
-  int _iconCounter = 1;
+  int _iconCounter = 0;
 
   @override
   Widget build(BuildContext context) {
