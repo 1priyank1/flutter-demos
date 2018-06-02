@@ -80,7 +80,7 @@ class SecondScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Simple Screen"),
+        title: new Text("Second Screen"),
       ),
       body: new Center(
           child: new Column(
@@ -112,7 +112,7 @@ class SecondScreenWithData extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Second Screen"),
+        title: new Text("Second Screen With Data"),
       ),
       body: new Center(
         child: new Column(
@@ -142,7 +142,7 @@ class SecondScreenForResult extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text("Second Screen"),
+        title: new Text("Second Screen For Result"),
       ),
       body: new Center(
           child: new Column(
