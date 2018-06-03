@@ -65,13 +65,14 @@ class FirstScreen extends StatelessWidget {
 
   // A method that launches the SelectionScreen and awaits the result from Navigator.pop!
   _navtigateAndDisplayResult(BuildContext context) async {
+
     // Navigator.push returns a Future that will complete after we call Navigator.pop on the SecondScreenForResult!
     final result = await Navigator.push(context, new MaterialPageRoute(builder: (context) => new SecondScreenForResult()));
-    print("Result : $result");
+
     // After the Selection Screen returns a result, show it in a Snackbar!
     _scaffoldKey.currentState.showSnackBar(new SnackBar(content: new Text("Resilt : ${result}"), duration: new Duration(seconds: 5),
         action: new SnackBarAction(label: "OK", onPressed: () {})));
-    }
+  }
 }
 
 class SecondScreen extends StatelessWidget {

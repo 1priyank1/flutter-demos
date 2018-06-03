@@ -1,6 +1,6 @@
-# network
+# image_widget
 
-Network call demo in flutter
+Image widget demo app
 
 ## Getting Started
 
