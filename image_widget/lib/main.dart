@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:transparent_image/transparent_image.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 
 void main() => runApp(new MyApp());
 
@@ -21,6 +22,7 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final TextStyle textStyle = Theme.of(context).textTheme.title;
     return new Scaffold(
       appBar: new AppBar(
         title: new Text("Image Widget"),
@@ -29,11 +31,23 @@ class MyHomePage extends StatelessWidget {
         child: new Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
-            new Image.asset('assets/lake.jpg', height: 150.0),
-            /*new Image.network('https://github.com/flutter/website/blob/master/_includes/code/layout/lakes/images/lake.jpg?raw=true', height: 150.0),
+            // Load image from assets
+            new Text('Load image from assets', style: textStyle),
+            new Image.asset('assets/mountain.jpg', height: 100.0),
+
+            // Load image from network
+            new Text('Load image from network', style: textStyle),
+            new Image.network('https://picsum.photos/200', height: 100.0),
+
+            // Chaching image from network
+            new Text('Chached image from network', style: textStyle),
+            new CachedNetworkImage(imageUrl: 'https://picsum.photos/200', height: 100.0),
+
+            // Fade in image from network
+            new Text('Fade in image from network', style: textStyle),
             new FadeInImage.memoryNetwork(placeholder: kTransparentImage,
-                image: 'https://github.com/flutter/website/blob/master/_includes/code/layout/lakes/images/lake.jpg?raw=true',
-                height: 150.0)*/
+                image: 'https://picsum.photos/200',
+                height: 100.0)
           ],
         ),
       ),
