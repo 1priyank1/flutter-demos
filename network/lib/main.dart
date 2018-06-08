@@ -56,7 +56,27 @@ class _MyAppPageState extends State<MyAppPage> {
       });
 
   Widget getRow(int i) {
-    return new Padding(padding: new EdgeInsets.all(10.0), child: new Text("${widgets[i]["id"]}. ${widgets[i]["login"]}"));
+    return new Padding(
+        padding: new EdgeInsets.all(10.0),
+        child: new Row(
+          children: <Widget>[
+            //new Text("${widgets[i]["id"]}", style: Theme.of(context).textTheme.subhead),
+            new Container(
+                  width: 50.0,
+                  height: 50.0,
+                  margin: new EdgeInsets.symmetric(horizontal: 10.0),
+                  decoration: new BoxDecoration(
+                    shape: BoxShape.circle,
+                    image: new DecorationImage(
+                        fit: BoxFit.cover,
+                        image: new NetworkImage('${widgets[i]["avatar_url"]}')
+                    ),
+                  ),
+            ),
+            new Text("${widgets[i]["login"]}", style: Theme.of(context).textTheme.subhead)
+          ],
+        )
+    );
   }
 
   loadData() async {
